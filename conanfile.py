@@ -7,11 +7,11 @@ class KieCommonConan(ConanFile):
     version = "0.1.0"
 
     # Optional metadata
-    license = "<Put the package license here>"
-    author = "<Put your name here> <And your email here>"
-    url = "<Package recipe repository url here, for issues about the package>"
-    description = "<Description of KieCommon here>"
-    topics = ("<Put some tag here>", "<here>", "<and here>")
+    license = "MIT"
+    author = "Kie <qiongxiaozi158@sina.com>"
+    url = "https://github.com/Kidsunbo/KieCommon"
+    description = "The common utility for multiple language."
+    topics = ("utility", "common")
 
     # Binary configuration
     settings = "os", "compiler", "build_type", "arch"
@@ -19,7 +19,7 @@ class KieCommonConan(ConanFile):
     default_options = {"shared": False, "fPIC": True}
 
     # Sources are located in the same place as this recipe, copy them to the recipe
-    exports_sources = "CMakeLists.txt", "src/*", "include/*"
+    exports_sources = "CMakeLists.txt", "src/*", "include/*", "LICENSE"
 
     def config_options(self):
         if self.settings.os == "Windows":
