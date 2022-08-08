@@ -1,1 +1,1 @@
-target_sources(kie_common PRIVATE kie_common.cpp http.cpp)
+target_sources(kie_common PRIVATE config_tree.cpp)

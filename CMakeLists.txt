@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_library(kie_common)
 target_include_directories(kie_common PUBLIC include)
-
 add_subdirectory(src)
 
 install(TARGETS kie_common)
