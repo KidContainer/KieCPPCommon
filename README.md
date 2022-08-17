@@ -1,4 +1,4 @@
-# Kie Common
+# Kie CPP Common
 
-The common utility for multiple language.
+The common utility for C++ language.
 
